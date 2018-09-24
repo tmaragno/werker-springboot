@@ -28,7 +28,7 @@ deploy-accs:
         file: springbootdemo-0.0.1.zip
 restart-occs:
   steps:
-    # Manage Oracle Container Cloud Service container
+    # Manage Oracle Container Cloud Service container test	
     - peternagy/oracle-occs-container-util:
         occs_user: $OCCS_USER
         occs_password: $OCCS_PASSWORD
